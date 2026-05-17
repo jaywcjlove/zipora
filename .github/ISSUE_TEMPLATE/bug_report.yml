@@ -1,6 +1,6 @@
-name: 🙋‍♂️ [Scap] - Support & Feedback
-description: Get help with Scap, report bugs, or request features.
-title: '🙋‍♂️ Support & Feedback: Scap'
+name: 🙋‍♂️ [Zipora] - Support & Feedback
+description: Get help with Zipora, report bugs, or request features.
+title: '🙋‍♂️ Support & Feedback: Zipora'
 labels: ['support', 'feedback', 'question']
 assignees:
   - jaywcjlove
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        <img align="right" height="86" alt="Scap" src="https://github.com/user-attachments/assets/965f303e-1c75-4a08-afc1-565ed5b9c06b"> Please provide as much detail as possible about your support request or feedback.
+        <img align="right" height="86" alt="Zipora" src="https://github.com/user-attachments/assets/a0469a73-5591-476d-b2c7-cd735b5053ca"> Please provide as much detail as possible about your support request or feedback.
         
         Zipora is a native macOS archive tool built with Swift / SwiftUI, designed for everyday desktop compression, extraction, preview, and archive organization. It supports creating ZIP, 7Z, TAR, TAR.GZ, TAR.BZ2, and TAR.XZ archives, and provides archive preview, extraction, recent history, password input for protected archives, and rebuildable archive editing (add/remove files).
 
