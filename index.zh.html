@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zipora Zipora 0.0.1</title>
+    <meta name="description" content="Zipora 是一款使用 Swift / SwiftUI 开发的 macOS 原生压缩与解压工具，支持创建 ZIP/7Z/TAR 系列压缩包、预览归档内容、指定目录解压、处理密码保护归档，并提供归档编辑能力。">
+    <meta name="keywords" content="macOS压缩工具,macOS解压工具,Zipora,zip压缩,7z压缩,rar解压,归档管理器,ArchiveKit,SevenZip,加密ZIP">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=1.34.4">
+    <link rel="stylesheet" type="text/css" href="css/tocbot.css?v=1.34.4">
+    <link rel="stylesheet" type="text/css" href="css/media.css?v=1.34.4">
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css?v=1.34.4">
+    <link rel="stylesheet" type="text/css" href="css/copy.css?v=1.34.4">
+    <link rel="stylesheet" type="text/css" href="css/demo-preview.css?v=1.34.4">
+    <link rel="icon" href="assets/logo.png" type="image/x-icon">
+    <script src="js/copy.js?v=1.34.4"></script>
+    <script src="js/dark-mode.js?v=1.34.4"></script>
+    <script src="js/markdown-style.js?v=1.34.4"></script>
+  </head>
+  <body id="idoctotop"><a href="#idoctotop" class="gototop">top</a>
+    <header class="header">
+      <article class="inner warpper" style="max-width:720px;"><a class="logo" href="index.html"><img alt="Zipora <sup>0.0.1</sup> logo" src="assets/logo.png">
+<span class="title">Zipora <sup>0.0.1</sup></span></a>
+        <div class="content">
+          <ul class="menu">
+            <li><a href="index.html" target="" class="">Home</a></li>
+            <li><a href="https://wangchujiang.com/#/app" target="" class="">Apps</a></li>
+            <li><a href="https://wangchujiang.com/#/about" target="" class="">About</a></li>
+          </ul><a href="https://github.com/jaywcjlove/zipora" target="_blank" rel="noopener noreferrer" title="Github" name="Github" class="github"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg></a>
+          <dark-mode permanent=""></dark-mode>
+        </div>
+      </article>
+    </header>
+    <div style="max-width:720px;" class="warpper-content warpper notocs">
+      <markdown-style theme-auto-switch-disabled="">
+        <div align="center"><br><br>
+          <img src="assets/logo.png" width="160" height="160">
+          <h1 style="border: 0;" id="----zipora--"><a aria-hidden="true" tabindex="-1" href="#----zipora--" class="anchor"><span class="icon icon-link"></span></a>Zipora</h1><!--rehype:style=border: 0;-->
+          <p>
+            <a href="https://github.com/jaywcjlove/zipora/releases"><img src="https://img.shields.io/github/v/release/jaywcjlove/zipora?color=3b82f6" alt="Release">
+</a>
+            <img src="https://img.shields.io/badge/macOS-14%2B-363b44?logo=apple&#x26;logoColor=white" alt="macOS 14+">
+            <a href="https://jaywcjlove.github.io/maslink/?id=6766860898"><img src="https://img.shields.io/badge/下载-AppStore-363b44?logo=AppStore&#x26;logoColor=white" alt="Zipora AppStore"></a>
+          </p>
+          <p>
+            <a href="./index.html">English</a> •
+            <a target="_blank" href="https://github.com/jaywcjlove/zipora/issues/new?template=bug_report_cn.yml">联系&#x26;支持</a> •
+            <a href="./CHANGELOG.zh.html">更新日志</a>
+          </p>
+          <p><a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6766860898" title="Zipora for macOS"><img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51"></a></p>
+        </div>
+        <p>
+          <img src="assets/screenshots-1.png" alt="">
+        </p>
+        <p>
+          <img src="assets/screenshots-2.png" alt="">
+        </p>
+        <p>
+          <img src="assets/screenshots-3.png" alt="">
+        </p>
+        <h2 id="zipora-是什么"><a aria-hidden="true" tabindex="-1" href="#zipora-是什么" class="anchor"><span class="icon icon-link"></span></a>Zipora 是什么</h2>
+        <p>Zipora 是一款使用 Swift / SwiftUI 构建的 macOS 原生归档工具，面向桌面上的日常压缩、解压、预览与整理场景。</p>
+        <p>它并不只是“解压器”，而是围绕归档文件提供一套完整工作流：</p>
+        <ul>
+          <li>拖拽文件或文件夹，快速创建新压缩包</li>
+          <li>打开归档后直接预览目录树、文件大小、修改时间</li>
+          <li>解压到指定目录，并可在完成后从 Finder 快速定位</li>
+          <li>记录最近打开的归档，方便再次查看、解压或继续处理</li>
+          <li>遇到受密码保护的归档时，在打开或解压流程中补充密码继续操作</li>
+          <li>对支持重建的格式执行归档内容整理，例如添加文件、移除文件</li>
+          <li>为现有 ZIP 归档追加密码保护</li>
+        </ul>
+        <h2 id="功能特性"><a aria-hidden="true" tabindex="-1" href="#功能特性" class="anchor"><span class="icon icon-link"></span></a>功能特性</h2>
+        <ul>
+          <li>使用 Swift / SwiftUI 构建的 macOS 原生应用</li>
+          <li>支持 macOS 14 及以上版本</li>
+          <li>首页支持拖拽归档预览 / 解压，或拖拽多个文件和文件夹直接建包</li>
+          <li>支持最近打开记录，以及可用性和加密状态识别</li>
+          <li>支持压缩包内容预览，可按当前目录搜索并按层级浏览</li>
+          <li>支持选择目标目录解压，并展示进度</li>
+          <li>支持为受密码保护的归档输入密码后继续打开或解压</li>
+          <li>支持创建 ZIP、7Z、TAR、TAR.GZ、TAR.BZ2、TAR.XZ</li>
+          <li>支持为 ZIP 创建加密压缩包</li>
+          <li>支持对可重建格式执行归档编辑：添加文件、移除文件</li>
+          <li>支持为现有 ZIP 归档追加密码保护</li>
+        </ul>
+        <h2 id="底层归档能力"><a aria-hidden="true" tabindex="-1" href="#底层归档能力" class="anchor"><span class="icon icon-link"></span></a>底层归档能力</h2>
+        <p>Zipora 当前组合使用两套归档后端，并按格式与操作自动路由：</p>
+        <ul>
+          <li><code>ArchiveKit</code>：负责大多数通用归档格式的读取、写入、解压与重建</li>
+          <li><code>SevenZip.swift</code>：优先处理 <code>7z</code> 的读取与解压</li>
+        </ul>
+        <p>当某个后端不适合当前文件时，应用会在允许的范围内回退到另一套读取路径，以提高兼容性。</p>
+        <h2 id="支持的格式"><a aria-hidden="true" tabindex="-1" href="#支持的格式" class="anchor"><span class="icon icon-link"></span></a>支持的格式</h2>
+        <h3 id="支持创建压缩包"><a aria-hidden="true" tabindex="-1" href="#支持创建压缩包" class="anchor"><span class="icon icon-link"></span></a>支持创建压缩包</h3>
+        <p>当前界面中可直接创建以下格式：</p>
+        <ul>
+          <li><code>zip</code></li>
+          <li><code>7z</code></li>
+          <li><code>tar</code></li>
+          <li><code>tar.gz</code> / <code>tgz</code></li>
+          <li><code>tar.bz2</code> / <code>tbz2</code> / <code>tbz</code></li>
+          <li><code>tar.xz</code> / <code>txz</code></li>
+        </ul>
+        <p>说明：</p>
+        <ul>
+          <li>界面主展示格式名为 <code>ZIP</code>、<code>7Z</code>、<code>TAR</code>、<code>TAR.GZ</code>、<code>TAR.BZ2</code>、<code>TAR.XZ</code></li>
+          <li><code>tgz</code>、<code>tbz2</code>、<code>tbz</code>、<code>txz</code> 是对应格式的常见别名扩展名</li>
+          <li>当前只有 <code>ZIP</code> 支持创建时直接启用密码保护</li>
+        </ul>
+        <h3 id="支持打开--预览--解压"><a aria-hidden="true" tabindex="-1" href="#支持打开--预览--解压" class="anchor"><span class="icon icon-link"></span></a>支持打开 / 预览 / 解压</h3>
+        <p>当前支持打开、预览或解压以下常见格式：</p>
+        <ul>
+          <li><code>7z</code></li>
+          <li><code>zip</code></li>
+          <li><code>tar</code></li>
+          <li><code>tgz</code></li>
+          <li><code>gz</code></li>
+          <li><code>bz2</code></li>
+          <li><code>xz</code></li>
+          <li><code>lzma</code></li>
+          <li><code>zst</code></li>
+          <li><code>lz4</code></li>
+          <li><code>lzip</code></li>
+          <li><code>cpio</code></li>
+          <li><code>xar</code></li>
+          <li><code>warc</code></li>
+          <li><code>rar</code></li>
+          <li><code>ar</code></li>
+          <li><code>a</code></li>
+          <li><code>deb</code></li>
+          <li><code>pkg</code></li>
+          <li><code>iso</code></li>
+          <li><code>cab</code></li>
+          <li><code>jar</code></li>
+          <li><code>apk</code></li>
+          <li><code>ipa</code></li>
+          <li><code>whl</code></li>
+          <li><code>mtree</code></li>
+          <li><code>shar</code></li>
+        </ul>
+        <p>具体支持效果仍取决于底层后端能力，以及压缩包本身的结构、加密方式和兼容性。</p>
+        <h2 id="当前实现说明"><a aria-hidden="true" tabindex="-1" href="#当前实现说明" class="anchor"><span class="icon icon-link"></span></a>当前实现说明</h2>
+        <ul>
+          <li>某些加密归档是否可读取、预览或解压，仍受底层归档库支持范围限制</li>
+          <li>当前支持在“打开 / 预览 / 解压”阶段为需要密码的归档输入密码</li>
+          <li>当前支持创建加密 ZIP，也支持为现有 ZIP 追加密码保护</li>
+          <li>归档编辑能力通过“解压到临时工作区 -> 修改内容 -> 重新打包替换原文件”实现，而不是直接原地修改归档结构</li>
+          <li>只有当前应用能够重新创建的格式，才会开放添加 / 移除文件这类编辑入口</li>
+          <li>默认会在你选择的目标目录下，以压缩包文件名创建同名文件夹，再把内容解压进去</li>
+        </ul><!--idoc:config:
+        title: Zipora
+        keywords: macOS压缩工具,macOS解压工具,Zipora,zip压缩,7z压缩,rar解压,归档管理器,ArchiveKit,SevenZip,加密ZIP
+        description: Zipora 是一款使用 Swift / SwiftUI 开发的 macOS 原生压缩与解压工具，支持创建 ZIP/7Z/TAR 系列压缩包、预览归档内容、指定目录解压、处理密码保护归档，并提供归档编辑能力。 
+        -->
+      </markdown-style>
+    </div>
+    <script src="js/demo-preview.js?v=1.34.4"></script>
+    <div class="footer warpper" style="max-width:720px;">
+      <a href="https://wangchujiang.com/#/app" target="_blank">App</a> •
+      <a href="https://wangchujiang.com/#/projects" target="_blank">Projects</a> •
+      <a href="https://wangchujiang.com/#/sponsor" target="_blank">Sponsor</a> •
+      <a href="https://wangchujiang.com/#/app" target="_blank">More Apps</a><br><br>Generated by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a> v1.34.4
+    </div>
+    <script src="js/tocbot.js?v=1.34.4"></script>
+  </body>
+</html>

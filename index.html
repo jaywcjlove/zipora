@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zipora 0.0.1</title>
+    <meta name="description" content="Zipora is a native macOS archive tool built with Swift / SwiftUI, designed for everyday desktop compression, extraction,">
+    <meta name="keywords" content="compression tool, decompression tool, macOS compression, archive tool, zip compression, rar decompression, 7z decompression, ArchiveKit, SevenZip">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=1.34.4">
+    <link rel="stylesheet" type="text/css" href="css/tocbot.css?v=1.34.4">
+    <link rel="stylesheet" type="text/css" href="css/media.css?v=1.34.4">
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css?v=1.34.4">
+    <link rel="stylesheet" type="text/css" href="css/copy.css?v=1.34.4">
+    <link rel="stylesheet" type="text/css" href="css/demo-preview.css?v=1.34.4">
+    <link rel="icon" href="assets/logo.png" type="image/x-icon">
+    <script src="js/copy.js?v=1.34.4"></script>
+    <script src="js/dark-mode.js?v=1.34.4"></script>
+    <script src="js/markdown-style.js?v=1.34.4"></script>
+  </head>
+  <body id="idoctotop"><a href="#idoctotop" class="gototop">top</a>
+    <header class="header">
+      <article class="inner warpper" style="max-width:720px;"><a class="logo" href="index.html"><img alt="Zipora <sup>0.0.1</sup> logo" src="assets/logo.png">
+<span class="title">Zipora <sup>0.0.1</sup></span></a>
+        <div class="content">
+          <ul class="menu">
+            <li><a href="index.html" target="" class="active">Home</a></li>
+            <li><a href="https://wangchujiang.com/#/app" target="" class="">Apps</a></li>
+            <li><a href="https://wangchujiang.com/#/about" target="" class="">About</a></li>
+          </ul><a href="https://github.com/jaywcjlove/zipora" target="_blank" rel="noopener noreferrer" title="Github" name="Github" class="github"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg></a>
+          <dark-mode permanent=""></dark-mode>
+        </div>
+      </article>
+    </header>
+    <div style="max-width:720px;" class="warpper-content warpper notocs">
+      <markdown-style theme-auto-switch-disabled="">
+        <div align="center"><br><br>
+          <img src="assets/logo.png" width="160" height="160">
+          <h1 style="border: 0;" id="----zipora--"><a aria-hidden="true" tabindex="-1" href="#----zipora--" class="anchor"><span class="icon icon-link"></span></a>Zipora</h1><!--rehype:style=border: 0;-->
+          <p>
+            <a href="https://github.com/jaywcjlove/zipora/releases"><img src="https://img.shields.io/github/v/release/jaywcjlove/zipora?color=3b82f6" alt="Release">
+</a>
+            <img src="https://img.shields.io/badge/macOS-14%2B-363b44?logo=apple&#x26;logoColor=white" alt="macOS 14+">
+            <a href="https://jaywcjlove.github.io/maslink/?id=6766860898"><img src="https://img.shields.io/badge/Downloads-AppStore-363b44?logo=AppStore&#x26;logoColor=white" alt="Zipora AppStore"></a>
+          </p>
+          <p>
+            <a href="index.zh.html">简体中文</a> •
+            <a target="_blank" href="https://github.com/jaywcjlove/zipora/issues/new?template=bug_report.yml">Contact &#x26; Support</a> •
+            <a href="CHANGELOG.html">Changelog</a>
+          </p>
+          <p><a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6766860898" title="Zipora for macOS"><img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51"></a></p>
+        </div>
+        <p>
+          <img src="assets/screenshots-1.png" alt="">
+        </p>
+        <p>
+          <img src="assets/screenshots-2.png" alt="">
+        </p>
+        <p>
+          <img src="assets/screenshots-3.png" alt="">
+        </p>
+        <h2 id="what-is-zipora"><a aria-hidden="true" tabindex="-1" href="#what-is-zipora" class="anchor"><span class="icon icon-link"></span></a>What Is Zipora</h2>
+        <p>Zipora is a native macOS archive tool built with Swift / SwiftUI, designed for everyday desktop compression, extraction, preview, and archive organization.</p>
+        <p>It is not just an unzip utility. Zipora provides a complete archive workflow:</p>
+        <ul>
+          <li>Drag and drop files or folders to quickly create a new archive</li>
+          <li>Open archives and preview tree structure, file sizes, and modified timestamps directly</li>
+          <li>Extract to a selected directory and quickly locate results in Finder</li>
+          <li>Keep a recent archive history for reopening, extracting, or continuing work</li>
+          <li>Enter passwords during open or extract when a protected archive requires it</li>
+          <li>Organize rebuildable archives by adding or removing files</li>
+          <li>Add password protection to existing ZIP archives</li>
+        </ul>
+        <h2 id="features"><a aria-hidden="true" tabindex="-1" href="#features" class="anchor"><span class="icon icon-link"></span></a>Features</h2>
+        <ul>
+          <li>Native macOS app built with Swift / SwiftUI</li>
+          <li>Supports macOS 14 and later</li>
+          <li>Home screen supports drag-and-drop for archive preview/extract, or dropping multiple files/folders to create archives</li>
+          <li>Supports recent items, availability status, and encryption status recognition</li>
+          <li>Supports archive content preview with current-folder search and hierarchical browsing</li>
+          <li>Supports selecting extraction destination with progress display</li>
+          <li>Supports entering passwords to continue opening or extracting protected archives</li>
+          <li>Supports creating ZIP, 7Z, TAR, TAR.GZ, TAR.BZ2, and TAR.XZ</li>
+          <li>Supports creating encrypted ZIP archives</li>
+          <li>Supports archive editing for rebuildable formats: add files and remove files</li>
+          <li>Supports adding password protection to existing ZIP archives</li>
+        </ul>
+        <h2 id="architecture-and-compatibility-strategy"><a aria-hidden="true" tabindex="-1" href="#architecture-and-compatibility-strategy" class="anchor"><span class="icon icon-link"></span></a>Architecture and Compatibility Strategy</h2>
+        <p>Zipora currently combines two archive backends and routes by format and operation:</p>
+        <ul>
+          <li><code>ArchiveKit</code>: primary path for most common formats (read, write, extract, rebuild)</li>
+          <li><code>SevenZip.swift</code>: preferred path for <code>7z</code> reading and extraction</li>
+        </ul>
+        <p>When one backend is not suitable for a file, Zipora falls back to the other available path when possible to improve compatibility.</p>
+        <h2 id="supported-formats"><a aria-hidden="true" tabindex="-1" href="#supported-formats" class="anchor"><span class="icon icon-link"></span></a>Supported Formats</h2>
+        <h3 id="create-archives"><a aria-hidden="true" tabindex="-1" href="#create-archives" class="anchor"><span class="icon icon-link"></span></a>Create Archives</h3>
+        <p>The current UI can directly create the following formats:</p>
+        <ul>
+          <li><code>zip</code></li>
+          <li><code>7z</code></li>
+          <li><code>tar</code></li>
+          <li><code>tar.gz</code> / <code>tgz</code></li>
+          <li><code>tar.bz2</code> / <code>tbz2</code> / <code>tbz</code></li>
+          <li><code>tar.xz</code> / <code>txz</code></li>
+        </ul>
+        <p>Notes:</p>
+        <ul>
+          <li>UI format labels are <code>ZIP</code>, <code>7Z</code>, <code>TAR</code>, <code>TAR.GZ</code>, <code>TAR.BZ2</code>, and <code>TAR.XZ</code></li>
+          <li><code>tgz</code>, <code>tbz2</code>, <code>tbz</code>, and <code>txz</code> are common alias extensions</li>
+          <li>Only <code>ZIP</code> currently supports enabling password protection during archive creation</li>
+        </ul>
+        <h3 id="open--preview--extract"><a aria-hidden="true" tabindex="-1" href="#open--preview--extract" class="anchor"><span class="icon icon-link"></span></a>Open / Preview / Extract</h3>
+        <p>Zipora currently supports opening, previewing, or extracting the following common formats:</p>
+        <ul>
+          <li><code>7z</code></li>
+          <li><code>zip</code></li>
+          <li><code>tar</code></li>
+          <li><code>tgz</code></li>
+          <li><code>gz</code></li>
+          <li><code>bz2</code></li>
+          <li><code>xz</code></li>
+          <li><code>lzma</code></li>
+          <li><code>zst</code></li>
+          <li><code>lz4</code></li>
+          <li><code>lzip</code></li>
+          <li><code>cpio</code></li>
+          <li><code>xar</code></li>
+          <li><code>warc</code></li>
+          <li><code>rar</code></li>
+          <li><code>ar</code></li>
+          <li><code>a</code></li>
+          <li><code>deb</code></li>
+          <li><code>pkg</code></li>
+          <li><code>iso</code></li>
+          <li><code>cab</code></li>
+          <li><code>jar</code></li>
+          <li><code>apk</code></li>
+          <li><code>ipa</code></li>
+          <li><code>whl</code></li>
+          <li><code>mtree</code></li>
+          <li><code>shar</code></li>
+        </ul>
+        <p>Actual support still depends on backend capabilities, plus archive structure, encryption method, and compatibility.</p>
+        <h2 id="current-implementation-notes"><a aria-hidden="true" tabindex="-1" href="#current-implementation-notes" class="anchor"><span class="icon icon-link"></span></a>Current Implementation Notes</h2>
+        <ul>
+          <li>Whether some encrypted archives can be read, previewed, or extracted still depends on underlying archive library support</li>
+          <li>Password entry is currently supported during open / preview / extract flows for protected archives</li>
+          <li>Creating encrypted ZIP archives is currently supported, and password protection can also be added to existing ZIP archives</li>
+          <li>Archive editing is implemented as: extract to temporary workspace -> modify content -> rebuild and replace the original archive, rather than direct in-place archive structure editing</li>
+          <li>Add / remove file actions are available only for formats that the app can currently rebuild</li>
+          <li>By default, extraction creates a folder named after the archive file in your selected destination, then extracts contents into it</li>
+        </ul>
+      </markdown-style>
+    </div>
+    <script src="js/demo-preview.js?v=1.34.4"></script>
+    <div class="footer warpper" style="max-width:720px;">
+      <a href="https://wangchujiang.com/#/app" target="_blank">App</a> •
+      <a href="https://wangchujiang.com/#/projects" target="_blank">Projects</a> •
+      <a href="https://wangchujiang.com/#/sponsor" target="_blank">Sponsor</a> •
+      <a href="https://wangchujiang.com/#/app" target="_blank">More Apps</a><br><br>Generated by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a> v1.34.4
+    </div>
+    <script src="js/tocbot.js?v=1.34.4"></script>
+  </body>
+</html>
