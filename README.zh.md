@@ -38,8 +38,6 @@
 
 ![](./assets/screenshots-3.png)
 
-![](./assets/screenshots-4.png)
-
 ## Zipora 是什么
 
 Zipora 是一款使用 Swift / SwiftUI 构建的 macOS 原生归档工具，面向桌面上的日常压缩、解压、预览与整理场景。

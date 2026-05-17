@@ -38,8 +38,6 @@
 
 ![](./assets/screenshots-3.png)
 
-![](./assets/screenshots-4.png)
-
 ## What Is Zipora
 
 Zipora is a native macOS archive tool built with Swift / SwiftUI, designed for everyday desktop compression, extraction, preview, and archive organization.
