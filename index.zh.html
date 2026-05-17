@@ -87,13 +87,6 @@
           <li>支持对可重建格式执行归档编辑：添加文件、移除文件</li>
           <li>支持为现有 ZIP 归档追加密码保护</li>
         </ul>
-        <h2 id="底层归档能力"><a aria-hidden="true" tabindex="-1" href="#底层归档能力" class="anchor"><span class="icon icon-link"></span></a>底层归档能力</h2>
-        <p>Zipora 当前组合使用两套归档后端，并按格式与操作自动路由：</p>
-        <ul>
-          <li><code>ArchiveKit</code>：负责大多数通用归档格式的读取、写入、解压与重建</li>
-          <li><code>SevenZip.swift</code>：优先处理 <code>7z</code> 的读取与解压</li>
-        </ul>
-        <p>当某个后端不适合当前文件时，应用会在允许的范围内回退到另一套读取路径，以提高兼容性。</p>
         <h2 id="支持的格式"><a aria-hidden="true" tabindex="-1" href="#支持的格式" class="anchor"><span class="icon icon-link"></span></a>支持的格式</h2>
         <h3 id="支持创建压缩包"><a aria-hidden="true" tabindex="-1" href="#支持创建压缩包" class="anchor"><span class="icon icon-link"></span></a>支持创建压缩包</h3>
         <p>当前界面中可直接创建以下格式：</p>

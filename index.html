@@ -87,13 +87,6 @@
           <li>Supports archive editing for rebuildable formats: add files and remove files</li>
           <li>Supports adding password protection to existing ZIP archives</li>
         </ul>
-        <h2 id="architecture-and-compatibility-strategy"><a aria-hidden="true" tabindex="-1" href="#architecture-and-compatibility-strategy" class="anchor"><span class="icon icon-link"></span></a>Architecture and Compatibility Strategy</h2>
-        <p>Zipora currently combines two archive backends and routes by format and operation:</p>
-        <ul>
-          <li><code>ArchiveKit</code>: primary path for most common formats (read, write, extract, rebuild)</li>
-          <li><code>SevenZip.swift</code>: preferred path for <code>7z</code> reading and extraction</li>
-        </ul>
-        <p>When one backend is not suitable for a file, Zipora falls back to the other available path when possible to improve compatibility.</p>
         <h2 id="supported-formats"><a aria-hidden="true" tabindex="-1" href="#supported-formats" class="anchor"><span class="icon icon-link"></span></a>Supported Formats</h2>
         <h3 id="create-archives"><a aria-hidden="true" tabindex="-1" href="#create-archives" class="anchor"><span class="icon icon-link"></span></a>Create Archives</h3>
         <p>The current UI can directly create the following formats:</p>
