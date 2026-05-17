@@ -66,15 +66,6 @@ It is not just an unzip utility. Zipora provides a complete archive workflow:
 - Supports archive editing for rebuildable formats: add files and remove files
 - Supports adding password protection to existing ZIP archives
 
-## Architecture and Compatibility Strategy
-
-Zipora currently combines two archive backends and routes by format and operation:
-
-- `ArchiveKit`: primary path for most common formats (read, write, extract, rebuild)
-- `SevenZip.swift`: preferred path for `7z` reading and extraction
-
-When one backend is not suitable for a file, Zipora falls back to the other available path when possible to improve compatibility.
-
 ## Supported Formats
 
 ### Create Archives
