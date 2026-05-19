@@ -32,11 +32,11 @@
   </p>
 </div>
 
-![](./assets/screenshots-1.png)
+![Zipora](./assets/screenshots-1-cn.png)
 
-![](./assets/screenshots-2.png)
+![Zipora](./assets/screenshots-2-cn.png)
 
-![](./assets/screenshots-3.png)
+![Zipora](./assets/screenshots-3-cn.png)
 
 ## Zipora 是什么
 
