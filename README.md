@@ -89,33 +89,7 @@ Notes:
 
 Zipora currently supports opening, previewing, or extracting the following common formats:
 
-- `7z`
-- `zip`
-- `tar`
-- `tgz`
-- `gz`
-- `bz2`
-- `xz`
-- `lzma`
-- `zst`
-- `lz4`
-- `lzip`
-- `cpio`
-- `xar`
-- `warc`
-- `rar`
-- `ar`
-- `a`
-- `deb`
-- `pkg`
-- `iso`
-- `cab`
-- `jar`
-- `apk`
-- `ipa`
-- `whl`
-- `mtree`
-- `shar`
+`7z` / `zip` / `tar` / `tgz` / `gz` / `bz2` / `xz` / `lzma` / `zst` / `lz4` / `lzip` / `cpio` / `xar` / `warc` / `rar` / `ar` / `a` / `deb` / `pkg` / `iso` / `cab` / `jar` / `apk` / `ipa` / `whl` / `mtree` / `shar`
 
 Actual support still depends on backend capabilities, plus archive structure, encryption method, and compatibility.
 
