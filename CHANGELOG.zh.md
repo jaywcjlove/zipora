@@ -10,6 +10,12 @@
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.3.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.3.0)
+
+1. pref：优化文件夹访问权限设置
+2. feat：优化设置内文件夹权限展示效果
+3. feat：改进外部解压进度显示
+
 ## [v1.2.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.2.0)
 
 1. feat: 支持将选中文件拖拽至文件夹进行解压

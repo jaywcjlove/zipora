@@ -10,6 +10,12 @@ Changelog
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.3.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.3.0)
+
+1. feat: refine folder access settings
+2. feat: optimize folder permission display in settings.
+3. feat: improve external extraction progress
+
 ## [v1.2.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.2.0)
 
 1. feat: Support dragging selected files to folders for extraction
