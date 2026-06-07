@@ -10,6 +10,11 @@
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.4.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.4.0)
+
+1. 新增：添加应用命令菜单，更新以来组件
+2. 修复：解决双击解压重复弹出密码输入框问题
+
 ## [v1.3.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.3.0)
 
 1. pref：优化文件夹访问权限设置
