@@ -10,6 +10,10 @@
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.5.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.5.0)
+
+1. feat：优化压缩包详情页交互
+
 ## [v1.4.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.4.0)
 
 1. 新增：添加应用命令菜单，更新以来组件

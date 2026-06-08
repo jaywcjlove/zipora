@@ -10,6 +10,10 @@ Changelog
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.5.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.5.0)
+
+1. feat: refine archive detail interactions
+
 ## [v1.4.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.4.0)
 
 1. feat: Add app command menus and update dependent components
