@@ -10,6 +10,10 @@
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.6.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.6.0)
+
+1. feat: 优化压缩文件详情编辑操作流程
+
 ## [v1.5.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.5.0)
 
 1. feat：优化压缩包详情页交互

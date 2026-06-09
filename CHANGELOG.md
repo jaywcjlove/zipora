@@ -10,6 +10,10 @@ Changelog
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.6.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.6.0)
+
+1. feat: improve archive detail edit workflows
+
 ## [v1.5.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.5.0)
 
 1. feat: refine archive detail interactions
