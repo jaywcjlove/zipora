@@ -10,6 +10,11 @@
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.7.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.7.0)
+
+1. 新功能：支持解压带密码保护的RAR压缩包
+2. 修复：编辑压缩包时保留原有密码
+
 ## [v1.6.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.6.0)
 
 1. feat: 优化压缩文件详情编辑操作流程

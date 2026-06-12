@@ -10,6 +10,11 @@ Changelog
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.7.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.7.0)
+
+1. feat: support password-protected RAR extraction
+2. fix: preserve passwords when editing archives
+
 ## [v1.6.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.6.0)
 
 1. feat: improve archive detail edit workflows
