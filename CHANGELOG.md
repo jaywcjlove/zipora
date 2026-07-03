@@ -10,6 +10,10 @@ Changelog
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.8.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.8.0)
+
+1. fix: configure locale for filename encoding in archive reader.
+
 ## [v1.7.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.7.0)
 
 1. feat: support password-protected RAR extraction

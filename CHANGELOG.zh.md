@@ -10,6 +10,10 @@
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.8.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.8.0)
+
+1. 修复：为归档读取器配置文件名编码的区域语言设置
+
 ## [v1.7.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.7.0)
 
 1. 新功能：支持解压带密码保护的RAR压缩包
