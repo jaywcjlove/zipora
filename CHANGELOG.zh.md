@@ -10,6 +10,13 @@
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.9.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.9.0)
+
+1. fix：在最近项目列表鼠标悬浮文件夹时，显示解压成功图标
+2. fix：异步解压进度更新逻辑移除 NSLock 锁
+3. fix：大文件解压进度采用字节单位上报
+4. fix：在 macOS 27+ 系统强制正常显示 NSMenuItem 矢量图标
+
 ## [v1.8.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.8.0)
 
 1. 修复：为归档读取器配置文件名编码的区域语言设置

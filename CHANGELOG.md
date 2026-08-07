@@ -10,6 +10,13 @@ Changelog
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.9.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.9.0)
+
+1. fix: show extract success icon with folder hover on recents
+2. fix: avoid NSLock in async extraction progress updates
+3. fix: report extraction progress by bytes for large files
+4. fix: explicitly show NSMenuItem symbol images on macOS 27+.
+
 ## [v1.8.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.8.0)
 
 1. fix: configure locale for filename encoding in archive reader.
