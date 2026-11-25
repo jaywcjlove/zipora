@@ -10,6 +10,11 @@
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.10.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.10.0)
+
+1. fix：优化 RAR 文件解压处理，避免后台解压失败却没有提示的问题。
+2. fix：优化多个大型 RAR 文件同时解压时的进度显示，避免进度条异常跳动。
+
 ## [v1.9.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.9.0)
 
 1. fix：在最近项目列表鼠标悬浮文件夹时，显示解压成功图标

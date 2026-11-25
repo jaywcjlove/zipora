@@ -10,6 +10,11 @@ Changelog
 <img alt="Zipora AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.10.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.10.0)
+
+1. fix: Improved RAR extraction reliability and added error notifications for background extraction failures.
+2. fix: Improved progress bar stability when extracting multiple large RAR files.
+
 ## [v1.9.0](https://github.com/jaywcjlove/zipora/releases/tag/v1.9.0)
 
 1. fix: show extract success icon with folder hover on recents
